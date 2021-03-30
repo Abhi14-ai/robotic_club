@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registration Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+           
+                
+            body{
+            input[type=text]:focus{
+                background-color: #ddd;
+                outline-color: none;
+            }
+            
+           
+            } 
+        </style>
+    </head>
+    
+         <style>
+         body{
+           background-image: url('robo.jpg');
+           background-position: center;
+           background-size: 100% 100%;
+           height: 100vh ;
+           }</style>
+         <form method="post" action="Thank.html" >
+             <a href="index.html" >Home</a><br>
+              
+               <div class="container">
+         
+                   <div><h1 align="center" style="font-size:25;background-color:peachpuff;border:3px solid black">Registration Page</h1><br></div>
+                <p>Please fill the form to create account</p>
+                
+               <label for="uname"><b> Name</b></label>
+               <input type="text" name="uname" placeholder="Enter name" pattern="[A-Za-Z]{1,15}" title="Enter only capital or small letters" required><br><br>
+            
+              <label for="upass"><b> Password</b></label>
+              <input type="text" name="Enter Password" placeholder="Enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required ><br><br>
+            
+              <label for="umail"><b> Email</b></label>
+              <input type="text" name="uemail" placeholder="Enter email" pattern="[a-Z0-9._%+-]+@[A-Z0-9._]+\.[a-z]{2,}$" required><br><br>
+            
+              <label for="umob"><b> Mobile Number</b></label>
+              <input type="text" name="umob" placeholder="Enter mobile number" pattern="[0][789][0-9]{9}" required><br><br>
+            
+             <label for="upin"><b> Pincode</b></label>
+             <input type="text" name="upin" placeholder="Enter pincode" pattern="[0-9]{6}" required><br><br>
+              <a href="Thank.html">Register</a><br>
+             <hr>
+            
+             <p>By creating an account you agree to our <a href="term.html">Terms & condtions</a></p><br><br><br><br>
+            
+            
+          
+         
+            <hr>
+         </div>
+                 <div class="container signin">
+                     <p>Already have an account?<a href="login.html"><span>Sign in</span></a></p>
+                 
+                 
+                 </div>
+       
+          
+        </form>
+       
+        
+    </body>
+</html>
